@@ -28,36 +28,24 @@ Open browser: **http://localhost/Assignment/index.php**
 
 # Project Structure (MVC)
 Assignment/
-│
-├── index.php                # Entry point of the application
-├── avatar.png               # Sample assets
-├── drink.jpg
-├── food.jpg
-│
-├── Core/                    # Core MVC components
-│   ├── BaseController.php   # Shared controller logic
-│   ├── Db.php               # Database connection (ORM-based)
-│   └── router.php           # Simple request router
-│
-├── Controller/              # Application controllers
-│   └── ... (e.g., ProductController, UserController)
-│
-├── Model/                   # ORM models representing database tables
-│   └── ... (e.g., Product.php, User.php)
-│
-├── View/                    # Views responsible for rendering UI
-│   └── ... (HTML/PHP templates)
-│
-├── FactoryPattern/          # Factory Design Pattern implementation
-│   └── ... (factory classes)
-│
-├── CommandPattern/          # Command Design Pattern implementation
-│   └── ... (command classes)
-│
-├── ObserverPattern/         # Observer Design Pattern implementation
-│   └── ... (observer classes)
-│
-├── lib/PHPMailer/           # PHPMailer library for email features
-│   └── ... (vendor files)
-│
-└── nbproject/               # NetBeans project configuration files
+- index.php – Entry point of the application
+- avatar.png / drink.jpg / food.jpg – Sample image assets
+
+Core/ – Core MVC components
+- BaseController.php – Shared controller logic
+- Db.php – Database connection using ORM
+- router.php – Simple router for handling requests
+
+Controller/ – All application controllers
+
+Model/ – ORM models representing database tables
+
+View/ – Views responsible for rendering UI
+
+FactoryPattern/ – Factory Design Pattern implementation
+
+CommandPattern/ – Command Design Pattern implementation
+
+ObserverPattern/ – Observer Design Pattern implementation
+
+lib/PHPMailer/ – PHPMailer library used for email functionality
