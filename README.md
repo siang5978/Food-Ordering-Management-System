@@ -35,17 +35,17 @@ Assignment/
 ├── food.jpg
 │
 ├── Core/                    # Core MVC components
-│   ├── BaseController.php   # Base controller with shared logic
+│   ├── BaseController.php   # Shared controller logic
 │   ├── Db.php               # Database connection (ORM-based)
-│   └── router.php           # Simple router for handling requests
+│   └── router.php           # Simple request router
 │
-├── Controller/              # All application controllers
+├── Controller/              # Application controllers
 │   └── ... (e.g., ProductController, UserController)
 │
 ├── Model/                   # ORM models representing database tables
 │   └── ... (e.g., Product.php, User.php)
 │
-├── View/                    # Views for rendering UI
+├── View/                    # Views responsible for rendering UI
 │   └── ... (HTML/PHP templates)
 │
 ├── FactoryPattern/          # Factory Design Pattern implementation
