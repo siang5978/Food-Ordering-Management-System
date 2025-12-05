@@ -1,0 +1,21 @@
+.home-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+    background-color: #f4f4f4;
+}
+
+.home-admin-card {
+    background: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-admin-card h1 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+}

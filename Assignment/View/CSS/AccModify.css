@@ -1,0 +1,103 @@
+/* Container */
+.account-edit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f7f9fc;
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.account-edit-card {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.account-edit-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Error */
+.form-error {
+    background: #ffe6e6;
+    color: #d9534f;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Labels & Inputs */
+.account-edit-card label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+.account-edit-card input[type="text"],
+.account-edit-card input[type="email"],
+.account-edit-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+.account-edit-card input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Radio */
+.role-options {
+    display: flex;
+    gap: 20px;
+    margin: 8px 0 20px;
+}
+
+.role-options label {
+    font-weight: normal;
+    color: #555;
+}
+
+/* Button */
+.save-button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.save-button:hover {
+    background: #0056b3;
+}
+
+/* Back link */
+.back-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.back-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
