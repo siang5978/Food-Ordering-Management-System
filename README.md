@@ -15,15 +15,15 @@ A web application developed in PHP using an MVC framework with ORM, design patte
 1. NetBeans IDE
 The project is created and executed using Apache NetBeans IDE 25.
 
-2.XAMPP
+  2.XAMPP
 - Start Apache and MySQL
 - Place the **Assignment** folder inside: **xampp/htdocs**
 
-3.Create database & import SQL
+  3.Create database & import SQL
 - Create a database named **ecommerce_db** at **http://localhost/phpmyadmin/**
 - import the provided ecommerce_db.sql to the database.
 
-4. Run the project
+  4. Run the project
 Open browser: **http://localhost/Assignment/index.php**
 
 # Project Structure (MVC)
